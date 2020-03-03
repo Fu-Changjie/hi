@@ -19,7 +19,7 @@ Requires:	gcc-c++
 
 
 %prep
-%setup -q -n src
+%setup -q -n helloworld-%{version}
 
 
 %build
